@@ -3,12 +3,12 @@
 namespace Fairlane\CookieConsentBundle\Controller;
 
 use Fairlane\CookieConsentBundle\Type\Constant;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Cookie;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
-class CookieController extends Controller
+class CookieController extends AbstractController
 {
     public function acceptAction()
     {
