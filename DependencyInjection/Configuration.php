@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('cookie_consent');
         $rootNode = $treeBuilder->root(Constant::BUNDLE_CONFIG_ROOT);
 
         // Here you should define the parameters that are allowed to

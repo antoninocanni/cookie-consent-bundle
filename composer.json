@@ -1,21 +1,24 @@
 {
-    "name": "fairlane/cookie-consent-bundle",
-    "type": "symfony-bundle",
-    "description": "EU Cookie Consent Bundle for Symfony",
-    "keywords": ["cookie", "cookie consent"],
-    "license": "WTFPL",
-    "require": {
-        "php": ">=7.0",
-        "twig/twig": ">=1.28",
-        "symfony/framework-bundle": ">=2.7",
-        "symfony/twig-bundle": ">=2.7"
+  "name": "antoninocanni/fairlane-cookie-consent-bundle",
+  "type": "symfony-bundle",
+  "description": "EU Cookie Consent Bundle for Symfony",
+  "keywords": [
+    "cookie",
+    "cookie consent"
+  ],
+  "license": "WTFPL",
+  "require": {
+    "php": ">=7.0",
+    "twig/twig": ">=1.28",
+    "symfony/framework-bundle": ">=2.7",
+    "symfony/twig-bundle": ">=2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fairlane\\CookieConsentBundle\\": ""
     },
-    "autoload": {
-        "psr-4": {
-            "Fairlane\\CookieConsentBundle\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
-    }
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
 }
