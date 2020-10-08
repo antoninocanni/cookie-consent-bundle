@@ -1,5 +1,5 @@
 {
-  "name": "antoninocanni/fairlane-cookie-consent-bundle",
+  "name": "mariosalsano/fairlane-cookie-consent-bundle",
   "type": "symfony-bundle",
   "description": "EU Cookie Consent Bundle for Symfony",
   "keywords": [
