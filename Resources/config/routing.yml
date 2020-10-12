@@ -1,4 +1,4 @@
 fairlane_cookie_consent_accept:
     path:     /fairlane/cookie-consent/accept
-    defaults: { _controller: FairlaneCookieConsentBundle:Cookie:accept}
+    defaults: { _controller: Fairlane\CookieConsentBundle\Controller\CookieController::acceptAction}
     methods: [POST]
