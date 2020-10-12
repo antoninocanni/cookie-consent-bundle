@@ -18,11 +18,11 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('cookie_consent');
+        $treeBuilder = new TreeBuilder('fairlane_cookie_consent');
         if (method_exists($treeBuilder, 'getRootNode')) {
             $rootNode = $treeBuilder->getRootNode();
         } else {
-            $rootNode = $treeBuilder->root('cookie_consent');
+            $rootNode = $treeBuilder->root('fairlane_cookie_consent');
         }
 
         // Here you should define the parameters that are allowed to
